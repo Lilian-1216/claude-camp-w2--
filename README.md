@@ -9,52 +9,52 @@
 
 ## 练习清单
 
-### 练习 1：学员花名册管理器（Customer management.py）
+### 练习 1：学员花名册管理器（customer.py）
 
 用字典管理学员信息（姓名、邮箱、加入日期），支持查询、添加、删除三种操作。
 
 **运行方式：**
 ```bash
-python Customer management.py
+python customer.py
 ```
 
 **功能点：** 字典操作、命令行菜单循环、大小写归一化处理。
 
 ---
 
-### 练习 2：文本词频统计器（Word count.py）
+### 练习 2：文本词频统计器（word_count.py）
 
 输入一段英文文本，统计每个单词出现次数，过滤停用词后输出 Top 10。
 
 **运行方式：**
 ```bash
-python Word count.py
+python word_count.py
 ```
 
 **功能点：** 字符串清洗、`collections.Counter` 计数、按值排序。
 
 ---
 
-### 练习 3：待办事项清单(Todo List.py)
+### 练习 3：待办事项清单(todo_list.py)
 
 支持添加、查看、完成待办事项，数据持久化到 `Todo List.json` 文件，重启程序后自动加载。
 
 **运行方式：**
 ```bash
-python Todo List.py
+python todo_list.py
 ```
 
 **功能点：** JSON 文件读写、文件不存在的异常处理、增量保存。
 
 ---
 
-### 练习 4：安全的计算器（Safe Calculator.py）
+### 练习 4：安全的计算器（safe_calculator.py）
 
 支持四则运算（+ - * /），对非数字输入、除零错误、退出操作做了完整异常处理。
 
 **运行方式：**
 ```bash
-python Safe Calculator.py
+python safe_calculator.py
 ```
 
 **功能点：** 多层异常防御（`ValueError` / `ZeroDivisionError`）、输入校验函数封装、优雅退出。
